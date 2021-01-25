@@ -14,7 +14,7 @@ export class RegisterComponent implements OnInit {
   registerForm: FormGroup;
   loading = false;
   submitted = false;
-  returnUrl: string = '/register';
+  returnUrl: string = '/login';
   error = '';
 
   constructor(
