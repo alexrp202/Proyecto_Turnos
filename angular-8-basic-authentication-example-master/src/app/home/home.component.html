@@ -1,0 +1,10 @@
+﻿<div class="card mt-4">
+    <h4 class="card-header">Logueado</h4>
+    <div class="card-body">
+        <h6>Usuarios</h6>
+        <div *ngIf="loading" class="spinner-border spinner-border-sm"></div>
+        <ul *ngIf="users">
+            <li *ngFor="let user of users">{{user.firstName}} {{user.lastName}} <strong>Fecha de entrada</strong> {{currentDate | date:'yyyy-MM-dd'}} </li>
+        </ul>
+    </div>
+</div>
