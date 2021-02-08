@@ -11,6 +11,10 @@
         "lite": "lite-server",
         "postinstall": "ng build --prod"
     },
+    "keywords": [
+        "example",
+        "heroku"
+    ],
     "private": true,
     "license": "MIT",
     "dependencies": {
