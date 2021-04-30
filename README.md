@@ -1,5 +1,4 @@
-ILERNA
-<<<<<<< HEAD
-https://sergibertran.github.io/Proyecto_Turnos/
-=======
->>>>>>> parent of 354ea8a (Update README.md)
+PROYECTO LOGIN REALIZADO CON IONIC Y AUTH DE FIREBASE
+
+https://vegood-app.web.app/
+
