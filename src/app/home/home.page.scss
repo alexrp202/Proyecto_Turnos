@@ -1,0 +1,36 @@
+@font-face {   
+  font-family: 'TT Commons Bold';    //This is what we are going to call
+  src: url('../../assets/fonts/TTCommons-Medium.ttf');
+}
+@font-face {   
+  font-family: 'TT Commons';  //This is what we are going to call  
+  src: url('../../assets/fonts/TTCommons-Bold.ttf');
+}
+
+
+ion-button{
+  font-family: 'TT Commons';
+  width: 75%;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-left: 13%;
+}
+
+ion-button:hover{
+  background-color: #000;
+  color: #fff;
+  transform: scale(10px)
+}
+
+img{
+  
+  width: auto !important;  align-items: center;  
+}

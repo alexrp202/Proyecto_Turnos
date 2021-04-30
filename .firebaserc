@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "vegood-app": {
+      "hosting": {
+        "app": [
+          "vegood-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "vegood-app"
+  }
+}
